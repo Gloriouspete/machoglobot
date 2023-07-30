@@ -2,13 +2,13 @@
     "version":2,
     "builds": [
         {
-            "src":"bot.js",
+            "src":"index.js",
             "use":"@vercel/node"
         }
     ],
     "routes":[
         {"src":"/",
-        "dest":"bot.js"
+        "dest":"index.js"
     }
     ]
 }

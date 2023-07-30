@@ -1,3 +1,11 @@
 ODJYaTVMZWNaMDJ2b2g0NE5JS1M6MTpjaQ
 
 73J8aRyZqj4fm6nkWXp-gIM-2WiGFJ9nJGkh1u_TWFrZjt1Rq-
+
+
+
+
+   let message = 'Here are the available MTN data plans:\n\n';
+                    transformedData.forEach((item, index) => {
+                      message += `${index + 1}. ${item.plan} - ${item.amount} NGN\n`;
+                    });
