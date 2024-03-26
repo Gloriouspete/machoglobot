@@ -96,7 +96,7 @@ bot.onText(/\/buy/, (msg) => {
 
 
         const url = `https://datastation.com.ng/api/network/`;
-        const authToken = '87ae029578c5d04a55ec1cda9ba8499a93207b09';
+        const authToken = '';
 
         axios.get(url, {
             headers: {
